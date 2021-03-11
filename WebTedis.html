@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Tedis</title>
 	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
 </head>
@@ -11,8 +12,10 @@
 	}
 
 	.topnav {
-		
-		overflow: visible;
+		width: 100%;
+		position: fixed;
+		/* position: sticky; */
+		overflow: auto;
 		background-color: rgb(255, 255, 255);
 		/* padding: 0px; */
 	}
@@ -20,6 +23,7 @@
 	.topnav a {
 		float: right;
 		color: #000000;
+		background-color: rgb(255, 255, 255);
 		text-align: center;
 		padding: 25px 20px;
 		text-decoration: none;
@@ -35,16 +39,32 @@
 		padding: 14px 16px;
 		text-decoration: none;
 		font-size: 14px;
-		width: 174px;
-		height: 42px;
 		text-align: center;
 		border-radius: 6px;
+	}
+
+	.OurDiv {
+		margin: 220px 0 0 120px;
+		left: 280px;
+		top: 375px;
+	}
+
+	.layout1 {
+		width: 808px;
+		height: 184px;
+		text-align: center;
+		top: 50%;
+		left: 50%;
+		right: 50%;
+		bottom: 50%;
+		margin: -760px 0 0 320px;
+
 	}
 </style>
 
 <body>
 
-	<div class="topnav">
+	<div class="topnav" id="MyHeader">
 		<img src="Group.png" style="vertical-align:middle;margin:11px 0px 0px 127px">
 		<button class="Button" style="vertical-align:middle;margin:16px 127px 0px 50px ">RESOURCE</button>
 		<a style="vertical-align:middle;margin:4px 0px 0px 0px " href="#Blog">BLOG</a>
@@ -53,6 +73,22 @@
 		<a style="vertical-align:middle;margin:4px 0px 0px 0px " href="#Home">HOME</a>
 
 	</div>
+
+	<div style="width: 1424px; height: 996px;">
+
+		<img src="Background1.png" style="width: 1424px; height: 996px;">
+		<div class="layout1">
+			<h1>Building Visual Language</h1>
+			<h2 style="color: #BDC6CB;">Tedis is Telkom own design language system</h2>
+			<h4 style="color: #616161;">THIS IS THE COLLECTION OF GUIDELINES AND COMPONENTS WHICH CAN BE USED TO CREATE
+				AMAZING USER EXPERIENCES.</h4>
+		</div>
+
+		<img class="OurDiv" src="Background2.png" alt="">
+
+
+	</div>
+	
 </body>
 
 </html>
