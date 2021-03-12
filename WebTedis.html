@@ -36,6 +36,7 @@
 
 	.Button {
 		float: right;
+		width: 174px;
 		border: 0;
 		background: #F55151;
 		color: rgb(255, 255, 255);
@@ -88,7 +89,7 @@
 		float: left;
 		width: 577px;
 		padding: 10px;
-		height: 200px;
+		height: 180px;
 		margin: 200px 0 0 90px;
 		/* tambahin margin pertama kalo posisinya mau lebih ke bawah */
 		/* tambahin margin terahir kalo posisinya mau lebih pisah\rengang */
@@ -98,6 +99,16 @@
 		display: table;
 		clear: both;
 	}
+	.column2 {
+		vertical-align: middle;
+		float: left;
+		width: 1244px;
+		padding: 10px;
+		height: 180px;
+		margin: 200px 0 0 90px;
+		
+	}
+	
 </style>
 
 <body>
@@ -116,7 +127,7 @@
 
 		<img src="Background1.png" style="width: 1440px; height: 996px;">
 		<div class="layout1">
-			<h1>Building Visual Language</h1>
+			<h1  >Building Visual Language</h1>
 			<h2 style="color: #BDC6CB;">Tedis is Telkom own design language system</h2>
 			<h4 style="color: #616161;">THIS IS THE COLLECTION OF GUIDELINES AND COMPONENTS WHICH CAN BE USED TO CREATE
 				AMAZING USER EXPERIENCES.</h4>
@@ -135,13 +146,21 @@
 				of good design with the innovation and possibility of technology and science.</p>
 		</div>
 	</div>
+
+	<div class="row">
+		<div class="column2" style="background-color:#aaa;">
+			<h5>Column 1</h5>
+			<p>Some text..</p>
+		</div>
+	</div>
+
 	<div class="row">
 		<div class="column" style="background-color:#aaa;">
-			<h2>Column 1</h2>
+			<h5>Column 1</h5>
 			<p>Some text..</p>
 		</div>
 		<div class="column" style="background-color:#bbb;">
-			<h2>Column 2</h2>
+			<h5>Column 2</h5>
 			<p>Some text..</p>
 		</div>
 	</div>
