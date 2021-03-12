@@ -32,8 +32,6 @@
 		font-style: bold;
 	}
 
-	
-
 	.Button {
 		float: right;
 		width: 174px;
@@ -75,16 +73,100 @@
 		margin: 50px 0 0 430px;
 	}
 
-	.box-create-text {
-		width: 243px;
-		height: 110px;
-		text-align: left;
-	}
-	* {
-		box-sizing: border-box;
+	.row1 {
+		content: "";
+		display: table;
+		clear: both;
 	}
 
-	.column {
+	.column1 {
+		vertical-align: middle;
+		float: left;
+		width: 283px;
+		padding: 10px;
+		height: 326px;
+		margin: 0px 0 0 120px;
+		border-radius: 20px;
+		background-color:#fafafa;
+	}
+
+	.icon-bg1 {
+		vertical-align: middle;
+		float: left;
+		width: 62px;
+		height: 62px;
+		margin: 32px;
+		border-radius: 10px;
+		background-color:#E9FAC8;
+	}
+
+	.icon-create {
+		margin: 46px 0 0 -80px;
+		width: 32px;
+		height: 32px;
+	}
+
+	.column2 {
+		vertical-align: middle;
+		float: left;
+		width: 283px;
+		padding: 10px;
+		height: 326px;
+		margin: 0px 0 0 150px;
+		border-radius: 20px;
+		background-color:#fafafa;
+	}
+
+	.icon-bg2 {
+		vertical-align: middle;
+		float: left;
+		width: 62px;
+		height: 62px;
+		margin: 32px;
+		border-radius: 10px;
+		background-color:#FFE8CC;
+	}
+
+	.icon-unify {
+		margin: 47px 0 0 -79px;
+		width: 32px;
+		height: 32px;
+	}
+
+	.column3 {
+		vertical-align: middle;
+		float: left;
+		width: 283px;
+		padding: 10px;
+		height: 326px;
+		margin: 0px 0 0 150px;
+		border-radius: 20px;
+		background-color:#fafafa;
+	}
+
+	.icon-bg3 {
+		vertical-align: middle;
+		float: left;
+		width: 62px;
+		height: 62px;
+		margin: 32px;
+		border-radius: 10px;
+		background-color:#CFE0FC;
+	}
+
+	.icon-coztomize {
+		margin: 47px 0 0 -71px;
+		width: 32px;
+		height: 32px;
+	}
+
+	.row2 {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.column4 {
 		vertical-align: middle;
 		float: left;
 		width: 577px;
@@ -94,19 +176,14 @@
 		/* tambahin margin pertama kalo posisinya mau lebih ke bawah */
 		/* tambahin margin terahir kalo posisinya mau lebih pisah\rengang */
 	}
-	.row:after {
-		content: "";
-		display: table;
-		clear: both;
-	}
-	.column2 {
+	
+	.column5 {
 		vertical-align: middle;
 		float: left;
 		width: 1244px;
 		padding: 10px;
 		height: 180px;
-		margin: 200px 0 0 90px;
-		
+		margin: 200px 0 0 90px;	
 	}
 	
 </style>
@@ -114,12 +191,12 @@
 <body>
 
 	<div class="topnav" id="MyHeader">
-		<img src="Group.png" style="vertical-align:middle;margin:11px 0px 0px 127px">
+		<img src="Group.png" style="vertical-align:middle;margin:18px 0px 0px 127px" width="115px">
 		<button class="Button" style="vertical-align:middle;margin:16px 127px 0px 50px ">RESOURCE</button>
-		<a style="vertical-align:middle;margin:4px 0px 0px 0px " href="#Blog">BLOG</a>
-		<a style="vertical-align:middle;margin:4px 0px 0px 0px " href="#DesignSystem">DESIGN SYSTEM</a>
-		<a style="vertical-align:middle;margin:4px 0px 0px 0px " href="#GettingStarted">GETTING STARTED</a>
-		<a style="vertical-align:middle;margin:4px 0px 0px 0px " href="#Home">HOME</a>
+		<a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#Blog">BLOG</a>
+		<a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#DesignSystem">DESIGN SYSTEM</a>
+		<a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#GettingStarted">GETTING STARTED</a>
+		<a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#Home">HOME</a>
 
 	</div>
 
@@ -129,8 +206,7 @@
 		<div class="layout1">
 			<h1  >Building Visual Language</h1>
 			<h2 style="color: #BDC6CB;">Tedis is Telkom own design language system</h2>
-			<h4 style="color: #616161;">THIS IS THE COLLECTION OF GUIDELINES AND COMPONENTS WHICH CAN BE USED TO CREATE
-				AMAZING USER EXPERIENCES.</h4>
+			<h4 style="color: #616161;">THIS IS THE COLLECTION OF GUIDELINES AND COMPONENTS WHICH CAN BE USED TO CREATE	AMAZING USER EXPERIENCES.</h4>
 		</div>
 
 		<img class="OurDiv" src="Background2.png" alt="">
@@ -139,27 +215,35 @@
 
 	<div class="layout2">
 		<h1>From personal ideas to think collaboration</h1>
+	</div>
 
-		<div class="box-create-text">
-			<h4>Create</h4>
-			<p style="font-size: 16px; color: #59616E;">Create a visual language that synthesizes the classic principles
-				of good design with the innovation and possibility of technology and science.</p>
+	<div class="row1">
+		<div class="column1">
+			<div class="icon-bg1"></div>
+			<img class="icon-create" src="create.png" alt="">
+			<p style="font-size: 24px; margin: -35px 0 0 0;">Create</p>
+			<p style="font-size: 16px; color: #59616E; width: 240px; margin: 50px 0 0 20px;">Create a visual language that synthesizes the classic principles of good design with the innovation and possibility of technology and science.</p>
+		</div>
+		<div class="column2">
+			<div class="icon-bg2"></div>
+			<img class="icon-unify" src="unify.png" alt="">
+			<p style="font-size: 24px; margin: -35px 0 0 0">Unify</p>
+			<p style="font-size: 16px; color: #59616E; width: 240px; margin: 50px 0 0 20px;">Develop a single underlying system that unifies the user experience across platforms, devices, and input methods.</p>
+		</div>
+		<div class="column3">
+			<div class="icon-bg3"></div>
+			<img class="icon-coztomize" src="coztomize.png" alt="">
+			<p style="font-size: 24px; margin: -35px 0 0 0;">Coztomize</p>
+			<p style="font-size: 16px; color: #59616E; width: 260px; margin: 50px 0 0 20px;">Expand Tedis visual language and provide a flexible foundation for innovation and brand expression.</p>
 		</div>
 	</div>
 
-	<div class="row">
-		<div class="column2" style="background-color:#aaa;">
+	<div class="row2">
+		<div class="column4" style="background-color:#aaa;">
 			<h5>Column 1</h5>
 			<p>Some text..</p>
 		</div>
-	</div>
-
-	<div class="row">
-		<div class="column" style="background-color:#aaa;">
-			<h5>Column 1</h5>
-			<p>Some text..</p>
-		</div>
-		<div class="column" style="background-color:#bbb;">
+		<div class="column5" style="background-color:#bbb;">
 			<h5>Column 2</h5>
 			<p>Some text..</p>
 		</div>
