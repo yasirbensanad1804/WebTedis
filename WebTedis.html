@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Tedis Page</title>
@@ -262,6 +261,14 @@
 		height: 60px;
 	}
 
+	a img{ 
+			width: 25%;
+			padding-left: 35px;
+			padding-bottom: 35px;
+
+
+		}
+
 	.footer {
 		display: inline;
 	}
@@ -353,7 +360,7 @@
 				<div class="icon-bg-moblib"></div>
 				<img class="icon-moblib" src="moblib.png" alt="">
 				<p style="font-size: 20px; margin: -65px 280px 0 0;">Mobile Library</p>
-				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop/
+				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop /
 					website platform.</p>
 				<img src="arrow1.png" alt="" style="margin: 25px 0 0 360px;">
 			</div>
@@ -361,8 +368,7 @@
 				<div class="icon-bg-weblib"></div>
 				<img class="icon-weblib" src="weblib.png" alt="">
 				<p style="font-size: 20px; margin: -65px 268px 0 0;">Website Library</p>
-				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop/
-					website platform.</p>
+				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop / website platform.</p>
 				<img src="arrow2.png" alt="" style="margin: 25px 0 0 360px;">
 			</div>
 		</div>
@@ -370,13 +376,27 @@
 
 	<div class="layout5">
 		<h1 style="margin: 210px 0 0 140px"> See us in Social Media!</h1>
+		<br>
+		<br>
+	    <div id="instafeed-container"></div>
+        <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+        <script type="text/javascript">
+        var userFeed = new Instafeed({
+	    	get: 'user',
+	  	    target: "instafeed-container",
+	    	 resolution: 'high_resolution',
+	    	 accessToken: 'IGQVJVWlJDcEh1RFJCYUlDVW9VQ2lBSnNab3hhbkNzWTAzRHR3c0lVRUdWNVpBallxZAW9leGFsS1p6YXdYNjJhZAXczMXlnMTVqLXp4YVAxOVFfcWlmVVZA3eEhLU1pYVzlyaE01V2RYaDI3VE1rT2thUgZDZD'
+		});
+		userFeed.run();
+		</script>
 	</div>
+	<br>
 
 	<div class="footer">
 		<div>
 			<img src="FooterBg.png" alt="FooterBg" style="width: 1440px; ">
 		</div>
-		<div>
+		<div>	
 			<img class="footer" src="TedisIc2svg.svg" alt="Tedis Icon" style="vertical-align:middle;margin: -530px 0px 0px 203px;">
 			<p style="width: 196px; height: 76px; vertical-align:middle;margin: -235px 0px 0px 203px; font-size: 14px; color: #898FA1; " >JL. Medan Merdeka Sel. No.11, RT.11/RW.2, Kec Gamir, Kota Jakarta Pusat, Daerah Khusus ibukota Jakarta 10110</p>
 			<p style="vertical-align:middle;margin: -135px 0px 0px 461px; color: #000; font-size: 14px;"  >About Us</p>
@@ -391,7 +411,6 @@
 			<p style="vertical-align:middle;margin: 14px 0px 0px 701px; color: #898FA1; font-size: 12px;"  >Youtube</p>
 			<p style="vertical-align:middle;margin: 21px 0px 0px 701px; color: #898FA1; font-size: 12px;"  >Medium</p>
 		</div>
-
 
 </body>
 
