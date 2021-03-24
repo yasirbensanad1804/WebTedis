@@ -17,13 +17,14 @@
 		position: fixed;
 		/* position: sticky; */
 		overflow: hidden;
+		font-weight: bold;
 		background-color: rgb(255, 255, 255);
 		/* padding: 0px; */
 	}
 
 	.topnav a {
 		float: right;
-		color: #000000;
+		color: #616161;
 		background-color: rgb(255, 255, 255);
 		text-align: center;
 		padding: 25px 15px;
@@ -31,6 +32,16 @@
 		text-decoration: none;
 		font-size: 14px;
 		font-style: bold;
+		font-weight: bold;
+	}
+
+	a:hover {
+		color: #212121;
+		transition: 500ms;
+	}
+
+	.Button:hover {
+		background-color: #FA8E8E;
 	}
 
 	.Button {
@@ -251,7 +262,18 @@
 		height: 60px;
 	}
 
-
+	.footer {
+		display: inline;
+	}
+	
+	/* .footerPoin{
+		color: #0000;
+		font-size: 14px;
+	}
+	.footerIsi {
+		color: #898FA1;
+		font-size: 12px;
+	} */
 </style>
 
 <body>
@@ -259,10 +281,10 @@
 	<div class="topnav" id="MyHeader">
 		<img src="Group.png" style="vertical-align:middle;margin:18px 0px 0px 127px" width="115px">
 		<button class="Button" style="vertical-align:middle;margin:16px 127px 0px 50px ">RESOURCE</button>
-		<a style="vertical-align:middle;margin:4px 150px 0px 0px" href="#Blog">BLOG</a>
-		<a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#DesignSystem">DESIGN SYSTEM</a>
-		<a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#GettingStarted">GETTING STARTED</a>
-		<a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#Home">HOME</a>
+		<b><a style="vertical-align:middle;margin:4px 150px 0px 0px" href="#Blog">BLOG</a></b>
+		<b><a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#DesignSystem">DESIGN SYSTEM</a></b>
+		<b><a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#GettingStarted">GETTING STARTED</a></b>
+		<b><a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#Home">HOME</a></b>
 
 	</div>
 
@@ -282,34 +304,41 @@
 
 	<div class="layout2">
 		<h1>From personal ideas to think collaboration</h1>
-		
+
 		<div class="row1">
 			<div class="column1">
 				<div class="icon-bg-create"></div>
 				<img class="icon-create" src="create.png" alt="">
 				<p style="font-size: 24px; margin: -35px 85px 0 0;">Create</p>
-				<p style="font-size: 16px; color: #59616E; width: 240px; margin: 50px 0 0 22px; text-align: left;">Create a visual language that synthesizes the classic principles of good design with the innovation and possibility of technology and science.</p>
+				<p style="font-size: 16px; color: #59616E; width: 240px; margin: 50px 0 0 22px; text-align: left;">
+					Create a visual language that synthesizes the classic principles of good design with the innovation
+					and possibility of technology and science.</p>
 			</div>
 			<div class="column2">
 				<div class="icon-bg-unify"></div>
 				<img class="icon-unify" src="unify.png" alt="">
 				<p style="font-size: 24px; margin: -35px 100px 0 0;">Unify</p>
-				<p style="font-size: 16px; color: #59616E; width: 240px; margin: 50px 0 0 22px; text-align: left;">Develop a single underlying system that unifies the user experience across platforms, devices, and input methods.</p>
+				<p style="font-size: 16px; color: #59616E; width: 240px; margin: 50px 0 0 22px; text-align: left;">
+					Develop a single underlying system that unifies the user experience across platforms, devices, and
+					input methods.</p>
 			</div>
 			<div class="column3">
 				<div class="icon-bg-coztomize"></div>
 				<img class="icon-coztomize" src="coztomize.png" alt="">
 				<p style="font-size: 24px; margin: -35px 46px 0 0;">Coztomize</p>
-				<p style="font-size: 16px; color: #59616E; width: 260px; margin: 50px 0 0 22px; text-align: left;">Expand Tedis visual language and provide a flexible foundation for innovation and brand expression.</p>
+				<p style="font-size: 16px; color: #59616E; width: 260px; margin: 50px 0 0 22px; text-align: left;">
+					Expand Tedis visual language and provide a flexible foundation for innovation and brand expression.
+				</p>
 			</div>
 		</div>
 	</div>
- 
-	<div class="layout3"> 
+
+	<div class="layout3">
 		<div class="base" style="background-color:rgb(255, 255, 255);">
 			<h1>Meet Tedis</h1>
 			<div style="width: 820px;">
-				<p style="font-size: 20px; color: #59616E; width: 790px;" >Telkom Design System. Construct and arrange your platform tidily, with standardize design system.
+				<p style="font-size: 20px; color: #59616E; width: 790px;">Telkom Design System. Construct and arrange
+					your platform tidily, with standardize design system.
 					Build intuitive component to create best experience for user. Telkom itself has a remarkable
 					component form for each style, based on the services & platform. We provide services such as,
 					website, mobile, and TV library guideline & resources.</p>
@@ -317,29 +346,52 @@
 			<img style="float: right; margin: -230px 15px 0px 0px;" src="mansittingbg.png">
 		</div>
 	</div>
-	
+
 	<div class="layout4">
 		<div class="row2">
 			<div class="column-1">
 				<div class="icon-bg-moblib"></div>
 				<img class="icon-moblib" src="moblib.png" alt="">
 				<p style="font-size: 20px; margin: -65px 280px 0 0;">Mobile Library</p>
-				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop/ website platform.</p>
+				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop/
+					website platform.</p>
 				<img src="arrow1.png" alt="" style="margin: 25px 0 0 360px;">
 			</div>
 			<div class="column-2">
 				<div class="icon-bg-weblib"></div>
 				<img class="icon-weblib" src="weblib.png" alt="">
 				<p style="font-size: 20px; margin: -65px 268px 0 0;">Website Library</p>
-				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop/ website platform.</p>
+				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop/
+					website platform.</p>
 				<img src="arrow2.png" alt="" style="margin: 25px 0 0 360px;">
 			</div>
 		</div>
 	</div>
 
-	<div class="layout5"> 
+	<div class="layout5">
 		<h1 style="margin: 210px 0 0 140px"> See us in Social Media!</h1>
 	</div>
+
+	<div class="footer">
+		<div>
+			<img src="FooterBg.png" alt="FooterBg" style="width: 1440px; ">
+		</div>
+		<div>
+			<img class="footer" src="TedisIc2svg.svg" alt="Tedis Icon" style="vertical-align:middle;margin: -530px 0px 0px 203px;">
+			<p style="width: 196px; height: 76px; vertical-align:middle;margin: -235px 0px 0px 203px; font-size: 14px; color: #898FA1; " >JL. Medan Merdeka Sel. No.11, RT.11/RW.2, Kec Gamir, Kota Jakarta Pusat, Daerah Khusus ibukota Jakarta 10110</p>
+			<p style="vertical-align:middle;margin: -135px 0px 0px 461px; color: #000; font-size: 14px;"  >About Us</p>
+			<p style="vertical-align:middle;margin: -20px 0px 0px 584px; color: #000; font-size: 14px;"  >Event</p>
+			<p style="vertical-align:middle;margin: -20px 0px 0px 701px; color: #000; font-size: 14px;"  >Follow US</p>
+			<p style="vertical-align:middle;margin: 6px 0px 0px 461px; color: #898FA1; font-size: 12px;"  >Profile</p>
+			<p style="vertical-align:middle;margin: 15px 0px 0px 461px; color: #898FA1; font-size: 12px;"  >Team</p>
+			<p style="vertical-align:middle;margin: 20px 0px 0px 461px; color: #898FA1; font-size: 12px;"  >portofolio</p>
+			<p style="vertical-align:middle;margin: -85px 0px 0px 584px; color: #898FA1; font-size: 12px;"  >Upcoming</p>
+			<p style="vertical-align:middle;margin: 14px 0px 0px 584px; color: #898FA1; font-size: 12px;"  >Latest</p>
+			<p style="vertical-align:middle;margin: -46px 0px 0px 701px; color: #898FA1; font-size: 12px;"  >Instagram</p>
+			<p style="vertical-align:middle;margin: 14px 0px 0px 701px; color: #898FA1; font-size: 12px;"  >Youtube</p>
+			<p style="vertical-align:middle;margin: 21px 0px 0px 701px; color: #898FA1; font-size: 12px;"  >Medium</p>
+		</div>
+
 
 </body>
 
