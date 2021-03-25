@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Tedis Page</title>
@@ -14,11 +15,9 @@
 	.topnav {
 		width: 100%;
 		position: fixed;
-		/* position: sticky; */
 		overflow: hidden;
 		font-weight: bold;
 		background-color: rgb(255, 255, 255);
-		/* padding: 0px; */
 	}
 
 	.topnav a {
@@ -26,8 +25,7 @@
 		color: #616161;
 		background-color: rgb(255, 255, 255);
 		text-align: center;
-		padding: 25px 15px;
-		/* margin-right: 500px; */
+		padding: 25px 9px;
 		text-decoration: none;
 		font-size: 14px;
 		font-style: bold;
@@ -183,13 +181,10 @@
 	.base {
 		vertical-align: middle;
 		float: left;
-		/* overflow: auto; */
 		width: 1220px;
 		padding: 10px;
 		height: 289px;
 		margin: 50px 0 0 115px;
-		/* tambahin margin pertama kalo posisinya mau lebih ke bawah */
-		/* tambahin margin terahir kalo posisinya mau lebih pisah\rengang */
 	}
 
 	.layout4 {
@@ -261,44 +256,35 @@
 		height: 60px;
 	}
 
-	a img{ 
-			width: 25%;
-			padding-left: 35px;
-			padding-bottom: 35px;
+	a img {
+		width: 25%;
+		padding-left: 90px;
+		padding-bottom: 35px;
 
 
-		}
+	}
 
 	.footer {
 		display: inline;
 	}
-	
-	/* .footerPoin{
-		color: #0000;
-		font-size: 14px;
-	}
-	.footerIsi {
-		color: #898FA1;
-		font-size: 12px;
-	} */
 </style>
 
 <body>
 
 	<div class="topnav" id="MyHeader">
-		<img src="Group.png" style="vertical-align:middle;margin:18px 0px 0px 127px" width="115px">
-		<button class="Button" style="vertical-align:middle;margin:16px 127px 0px 50px ">RESOURCE</button>
-		<b><a style="vertical-align:middle;margin:4px 150px 0px 0px" href="#Blog">BLOG</a></b>
+		<img src="Group.png" style="vertical-align:middle;margin:18px 0px 0px 117px" width="115px">
+		<button href="https://tedis.telkom.design/download" type="button" class="Button" style="vertical-align:middle;margin:16px 127px 0px 20px ">RESOURCE</button>
+		<b><a style="vertical-align:middle;margin:4px 50px 0px 0px" href="https://tedis.telkom.design/blog">BLOG</a></b>
 		<b><a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#DesignSystem">DESIGN SYSTEM</a></b>
-		<b><a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#GettingStarted">GETTING STARTED</a></b>
+		<b><a style="vertical-align:middle;margin:4px 0px 0px 0px" href="https://tedis.telkom.design/getting-started">GETTING STARTED</a></b>
 		<b><a style="vertical-align:middle;margin:4px 0px 0px 0px" href="#Home">HOME</a></b>
 
 	</div>
 
-	<div style="width: 1424px; height: 996px;">
+	<div style="width: 1424px; height: 996px;" id="Home" >
 
 		<img src="bekgron.png" style="width: 1440px; height: 996px;">
-		<div class="layout1">
+		<div class="layout1"  >
 			<h1>Building Visual Language</h1>
 			<h2 style="color: #BDC6CB;">Tedis is Telkom own design language system</h2>
 			<h4 style="color: #616161;">THIS IS THE COLLECTION OF GUIDELINES AND COMPONENTS WHICH CAN BE USED TO CREATE
@@ -340,9 +326,9 @@
 		</div>
 	</div>
 
-	<div class="layout3">
+	<div id="DesignSystem" class="layout3">
 		<div class="base" style="background-color:rgb(255, 255, 255);">
-			<h1>Meet Tedis</h1>
+			<h1 >Meet Tedis</h1>
 			<div style="width: 820px;">
 				<p style="font-size: 20px; color: #59616E; width: 790px;">Telkom Design System. Construct and arrange
 					your platform tidily, with standardize design system.
@@ -368,26 +354,27 @@
 				<div class="icon-bg-weblib"></div>
 				<img class="icon-weblib" src="weblib.png" alt="">
 				<p style="font-size: 20px; margin: -65px 268px 0 0;">Website Library</p>
-				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop / website platform.</p>
+				<p style="font-size: 14px; color: #59616E; margin: 10px 70px 0 0;">Guideline and Resource for desktop /
+					website platform.</p>
 				<img src="arrow2.png" alt="" style="margin: 25px 0 0 360px;">
 			</div>
 		</div>
 	</div>
 
-	<div class="layout5">
+	<div  class="layout5">
 		<h1 style="margin: 210px 0 0 140px"> See us in Social Media!</h1>
 		<br>
 		<br>
-	    <div id="instafeed-container"></div>
-        <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
-        <script type="text/javascript">
-        var userFeed = new Instafeed({
-	    	get: 'user',
-	  	    target: "instafeed-container",
-	    	 resolution: 'high_resolution',
-	    	 accessToken: 'IGQVJVWlJDcEh1RFJCYUlDVW9VQ2lBSnNab3hhbkNzWTAzRHR3c0lVRUdWNVpBallxZAW9leGFsS1p6YXdYNjJhZAXczMXlnMTVqLXp4YVAxOVFfcWlmVVZA3eEhLU1pYVzlyaE01V2RYaDI3VE1rT2thUgZDZD'
-		});
-		userFeed.run();
+		<div id="instafeed-container"></div>
+		<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+		<script type="text/javascript">
+			var userFeed = new Instafeed({
+				get: 'user',
+				target: "instafeed-container",
+				resolution: 'high_resolution',
+				accessToken: 'IGQVJVWlJDcEh1RFJCYUlDVW9VQ2lBSnNab3hhbkNzWTAzRHR3c0lVRUdWNVpBallxZAW9leGFsS1p6YXdYNjJhZAXczMXlnMTVqLXp4YVAxOVFfcWlmVVZA3eEhLU1pYVzlyaE01V2RYaDI3VE1rT2thUgZDZD'
+			});
+			userFeed.run();
 		</script>
 	</div>
 	<br>
@@ -396,20 +383,24 @@
 		<div>
 			<img src="FooterBg.png" alt="FooterBg" style="width: 1440px; ">
 		</div>
-		<div>	
-			<img class="footer" src="TedisIc2svg.svg" alt="Tedis Icon" style="vertical-align:middle;margin: -530px 0px 0px 203px;">
-			<p style="width: 196px; height: 76px; vertical-align:middle;margin: -235px 0px 0px 203px; font-size: 14px; color: #898FA1; " >JL. Medan Merdeka Sel. No.11, RT.11/RW.2, Kec Gamir, Kota Jakarta Pusat, Daerah Khusus ibukota Jakarta 10110</p>
-			<p style="vertical-align:middle;margin: -135px 0px 0px 461px; color: #000; font-size: 14px;"  >About Us</p>
-			<p style="vertical-align:middle;margin: -20px 0px 0px 584px; color: #000; font-size: 14px;"  >Event</p>
-			<p style="vertical-align:middle;margin: -20px 0px 0px 701px; color: #000; font-size: 14px;"  >Follow US</p>
-			<p style="vertical-align:middle;margin: 6px 0px 0px 461px; color: #898FA1; font-size: 12px;"  >Profile</p>
-			<p style="vertical-align:middle;margin: 15px 0px 0px 461px; color: #898FA1; font-size: 12px;"  >Team</p>
-			<p style="vertical-align:middle;margin: 20px 0px 0px 461px; color: #898FA1; font-size: 12px;"  >portofolio</p>
-			<p style="vertical-align:middle;margin: -85px 0px 0px 584px; color: #898FA1; font-size: 12px;"  >Upcoming</p>
-			<p style="vertical-align:middle;margin: 14px 0px 0px 584px; color: #898FA1; font-size: 12px;"  >Latest</p>
-			<p style="vertical-align:middle;margin: -46px 0px 0px 701px; color: #898FA1; font-size: 12px;"  >Instagram</p>
-			<p style="vertical-align:middle;margin: 14px 0px 0px 701px; color: #898FA1; font-size: 12px;"  >Youtube</p>
-			<p style="vertical-align:middle;margin: 21px 0px 0px 701px; color: #898FA1; font-size: 12px;"  >Medium</p>
+		<div>
+			<img class="footer" src="TedisIc2svg.svg" alt="Tedis Icon"
+				style="vertical-align:middle;margin: -530px 0px 0px 203px;">
+			<p
+				style="width: 196px; height: 76px; vertical-align:middle;margin: -235px 0px 0px 203px; font-size: 14px; color: #898FA1; ">
+				JL. Medan Merdeka Sel. No.11, RT.11/RW.2, Kec Gamir, Kota Jakarta Pusat, Daerah Khusus ibukota Jakarta
+				10110</p>
+			<p style="vertical-align:middle;margin: -135px 0px 0px 461px; color: #000; font-size: 14px;">About Us</p>
+			<p style="vertical-align:middle;margin: -20px 0px 0px 584px; color: #000; font-size: 14px;">Event</p>
+			<p style="vertical-align:middle;margin: -20px 0px 0px 701px; color: #000; font-size: 14px;">Follow US</p>
+			<p style="vertical-align:middle;margin: 6px 0px 0px 461px; color: #898FA1; font-size: 12px;">Profile</p>
+			<p style="vertical-align:middle;margin: 15px 0px 0px 461px; color: #898FA1; font-size: 12px;">Team</p>
+			<p style="vertical-align:middle;margin: 20px 0px 0px 461px; color: #898FA1; font-size: 12px;">portofolio</p>
+			<p style="vertical-align:middle;margin: -85px 0px 0px 584px; color: #898FA1; font-size: 12px;">Upcoming</p>
+			<p style="vertical-align:middle;margin: 14px 0px 0px 584px; color: #898FA1; font-size: 12px;">Latest</p>
+			<p style="vertical-align:middle;margin: -46px 0px 0px 701px; color: #898FA1; font-size: 12px;">Instagram</p>
+			<p style="vertical-align:middle;margin: 14px 0px 0px 701px; color: #898FA1; font-size: 12px;">Youtube</p>
+			<p style="vertical-align:middle;margin: 21px 0px 0px 701px; color: #898FA1; font-size: 12px;">Medium</p>
 		</div>
 
 </body>
